@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+.city_block {
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.overlay {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+}
+
+.città {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#copenaghen {
+    background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/copenaghen-1530027712.jpg");
+}
+
+#roma {
+    background-image: url("https://www.hoteltexroma.it/sites/default/files/styles/photo_gallery/public/roma1.jpg?itok=AJVkQP5T");
+    background-position: right;
+}
+
+#caponord {
+    background-image: url("https://www.tripsavvy.com/thmb/OULozWJmObB-8p3Lz1dtDyNFJi4=/3000x2000/filters:fill(auto,1)/GettyImages-144362226-c65d7bd62b8240d9a47b3f1f0ede2517.jpg");
+    background-position: right;
+}
+
+#mosca {
+    background-image: url("https://dynaimage.cdn.cnn.com/cnn/q_auto,w_900,c_fill,g_auto,h_506,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F180531144541-01-moscow-attractions---moskva-river.jpg");
+    background-position: center;
+}
+
+#parigi {
+    background-image: url("https://m.fourseasons.com/alt/img-opt/~70.1530.0,0000-315,5000-3000,0000-1687,5000/publish/content/dam/fourseasons/images/web/PAR/PAR_982_original.jpg");
+    background-position: right;
+}
+
+#lisbona {
+    background-image: url("https://media.architecturaldigest.com/photos/5cafa34bef44f124e4a383df/16:9/w_2560,c_limit/GettyImages-478897762.jpg");
+}
